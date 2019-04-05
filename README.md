@@ -1,3 +1,4 @@
 # Personal Website
 
-### Wants to know a bit more about me then visit gevic.github.io
+I build this website from scratch. Wanna know more about me and my 
+intrests other than just projects, visit https://gevic.github.io/
