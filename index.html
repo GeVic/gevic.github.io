@@ -91,7 +91,7 @@
                 <div class="experience__location">Delhi, India</div>
               </div>
               <button class="button" onclick="myResp_2()">My work</button>
-              <div id="myResp" style="display:none">
+              <div id="myResp_2" style="display:none">
                 - Developed VMS (Visitor Management System) Mobile Application.</br>
                 - Developed applications to automate various processes at the University.</br>
               </div>
@@ -102,7 +102,7 @@
                 <div class="experience__location">New Delhi, India</div>
               </div>
               <button class="button" onclick="myResp_3()">My work</button>
-              <div id="myResp" style="display:none">
+              <div id="myResp_3" style="display:none">
                 - Primarily responsible for connecting small businesses to Udaan (Flipkart initiative).</br>
                 - Modified the current UI of the Awign app for Android platforms.</br>
               </div>
@@ -239,6 +239,26 @@
     
     function myResp() {
       var y = document.getElementById('myResp');
+
+      if (y.style.display === 'none'){
+          y.style.display = 'block';
+      } else {
+        y.style.display = 'none';
+      }
+    }
+      
+    function myResp_2() {
+      var y = document.getElementById('myResp_2');
+
+      if (y.style.display === 'none'){
+          y.style.display = 'block';
+      } else {
+        y.style.display = 'none';
+      }
+    }
+      
+   function myResp_3() {
+      var y = document.getElementById('myResp_3');
 
       if (y.style.display === 'none'){
           y.style.display = 'block';
