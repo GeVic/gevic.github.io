@@ -12,6 +12,8 @@ body {
 }
 a, a:visited {
    color:inherit;
+   text-decoration: none;
+   font-style: normal;   
 }
 .block {
     width: 50%;
@@ -76,8 +78,10 @@ a, a:visited {
 .meta-title {
     font-size: 17px;
     margin: 10px 0;
-    font-style: italic;
     font-weight: bold;
+}
+.technologies{
+    font-size: 15px;
 }
 .relative {
     position: relative;
