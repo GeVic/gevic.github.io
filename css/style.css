@@ -86,6 +86,9 @@ a, a:visited {
 .relative {
     position: relative;
 }
+hr {
+    margin-bottom: 5%;
+}
 @media screen and (max-width: 768px) {
     .block--left {
         background-color: #4dfeee;
