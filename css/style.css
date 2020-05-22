@@ -87,7 +87,7 @@ a, a:visited {
     position: relative;
 }
 hr {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 @media screen and (max-width: 768px) {
     .block--left {
