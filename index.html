@@ -83,7 +83,18 @@
                 </h2>
                 <div class="content__inner">
                   <div class="experience">
-                    <div class="meta-title"><a href="https://www.postman.com/" target="_blank">Newsgator</a></div>
+                    <div class="meta-title"><a href="https://vadelabs.com/" target="_blank">Vade Labs</a></div>
+                    <div class="experience__role">Founding Member</div>
+                    <div class="experience__time">Aug 2021 — Present</div>
+                    <div class="experience__location">Remote</div>
+                  </div>
+                  <button class="button" onclick="myResp_4()">My work</button></br>
+                  <div id="myResp" style="display:none">
+                    - Conducted fullstack developments - from specs to tested production code.</br>
+                    - Technologies used: Clojure, React.</br>
+                  </div>
+                </br>
+                    <div class="meta-title"><a href="https://in.linkedin.com/company/newsg8r" target="_blank">Newsgator</a></div>
                     <div class="experience__role">Fulll Stack Developer</div>
                     <div class="experience__time">April 2020 — Present</div>
                     <div class="experience__location">Remote</div>
@@ -349,6 +360,16 @@
 
     function myResp_3() {
       var y = document.getElementById('myResp_3');
+
+      if (y.style.display === 'none') {
+        y.style.display = 'block';
+      } else {
+        y.style.display = 'none';
+      }
+    }
+    
+        function myResp_2() {
+      var y = document.getElementById('myResp_2');
 
       if (y.style.display === 'none') {
         y.style.display = 'block';
